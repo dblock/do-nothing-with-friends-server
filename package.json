@@ -1,0 +1,37 @@
+{
+  "name": "do-nothing-with-friends",
+  "version": "0.1.0",
+  "description": "Do nothing with friends.",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.10.6",
+    "body-parser": "",
+    "mongoose": "",
+    "request": "",
+    "q": ""
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": ">=1.1.2"
+  },
+  "devDependencies": {
+    "mocha": "",
+    "chai": "",
+    "jshint": "",
+    "supertest": ""
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --timeout=10s",
+    "lint": "./node_modules/jshint/bin/jshint lib test -c .jshint",
+    "start": "node app.js"
+  },
+  "author": "Daniel Doubrovkine",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dblock/do-nothing-with-friends-server.git"
+  },
+  "bugs": {
+    "url" : "https://github.com/dblock/do-nothing-with-friends-server/issues"
+  }
+}

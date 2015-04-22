@@ -1,0 +1,9 @@
+{
+	"name": "Do Nothing With Friends",
+	"description": "A silly app that does nothing.",
+	"respository": "https://github.com/dblock/do-nothing-with-friends-server",
+	"keywords": ["node", "time waster"],
+	"addons": [
+		"mongolab"
+	]
+}
